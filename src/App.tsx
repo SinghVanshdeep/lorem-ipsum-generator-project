@@ -24,6 +24,7 @@ function App() {
   return (
     <div id="main">
       <div id="container">
+        <p className="h1">Lorem Ipsum Generator</p>
          <div id="paragraph-input-container" className="input-container">
             <label htmlFor="paragraph">Paragraphs:</label>
             <input id="paragraph" type="number" placeholder="Number of Paragraphs (Optional)" onChange={(e)=>setParagraphs(parseInt(e.target.value))}/>
