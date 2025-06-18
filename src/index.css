@@ -67,7 +67,7 @@ select{
 .input-container{
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #result{
@@ -102,14 +102,14 @@ button:active{
 
 @media only screen and (max-width: 768px) {
   .input-container{
-    width: 80%;
+    width: 100%;
     font-size: 0.8rem;
   }
   input{
-    width: 17rem;
-    font-size: 0.8rem;
+    width: 12rem;
+    font-size: 0.55rem;
   }
   #result{
-    width: 80%;
+    width: 75%;
   }
 }
