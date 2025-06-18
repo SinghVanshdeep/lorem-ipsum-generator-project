@@ -88,7 +88,6 @@ textarea::-webkit-scrollbar {
   background-color: transparent;
 }
 
-
 button{
   color: white;
   border-radius: 0.2rem;
@@ -99,4 +98,18 @@ button{
 
 button:active{
   background-color: #1a2a6c;
+}
+
+@media only screen and (max-width: 768px) {
+  .input-container{
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  input{
+    width: 17rem;
+    font-size: 0.8rem;
+  }
+  #result{
+    width: 80%;
+  }
 }
